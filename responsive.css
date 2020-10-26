@@ -1,0 +1,59 @@
+/* Untuk Tablet */
+@media (max-width:1000px) {
+  /* CSS untuk produk */
+.main {
+	width:70%;
+}
+}
+
+/* Untuk Smartphones */
+@media (max-width:670px) {
+  /* CSS untuk produk */
+  .container {
+	  width:100%;
+  }
+  .copy-container {
+	  width:100%;
+  }
+  .copy-container h1 {
+	  font-size:85px;
+  }
+  .copy-container h2 {
+	  font-size:20px;
+  }
+  .main {
+		width:100%;
+  }
+  .footer {
+		width:100%;
+}
+  .header-logo {
+	  font-size:15px;
+	  padding:10px 20px;
+}
+.menu-icon {
+  font-size: 12px;
+  padding: 10px 0;
+  display:none;  
+}
+.header-list li {
+	list-style: none;
+    float:left;
+	float:left;
+	padding: 8px 10px;	
+}
+.header-list li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+}
+  .header-list {
+		display:none;
+}
+  .menu-icon {
+	  display:block;
+  }
+}
+  
